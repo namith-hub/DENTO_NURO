@@ -6,7 +6,7 @@ import './Footer.css';
 
 const quickLinks   = ['Home','About','Doctors','Dental Services','Neurosurgery','Facilities','Gallery','Testimonials','FAQ','Contact','Book Appointment'];
 const dentalSrvcs  = ['Laser Dentistry', 'Aesthetic Dentistry', 'Dental Implants', 'Smile Designing', 'Root Canal Therapy', 'Pediatric Dentistry'];
-const neuroSrvcs   = ['Neurosurgery Consultations', 'Brain Disorders', 'Spine Disorders', 'Nerve Repair', 'Post-Op Care', 'Surgical Planning'];
+const neuroSrvcs   = ['Neurosurgery Consultations', 'Brain Disorders', 'Spine Disorders', 'Minimal Invasive Spine Surgeries', 'Post-Op Care', 'Surgical Planning'];
 
 const scrollTo = (id) => {
   const map = {
@@ -76,10 +76,10 @@ const Footer = () => (
         <h5>Clinic Timings</h5>
         <div className="footer-hours">
           {[
-            ['Mon – Sat (Morn)', '9:30 AM – 2:00 PM'],
-            ['Mon – Sat (Eve)',  '4:30 PM – 8:00 PM'],
-            ['Sunday',           'Holiday'],
-            ['Appointments',     '+91 6360521761'],
+            ['Mon – Sat (Morning)', '10:00 AM – 2:00 PM'],
+            ['Mon – Sat (Evening)', '4:00 PM – 8:00 PM'],
+            ['Sunday',              'Holiday'],
+            ['Appointments',        '+91 6360521761'],
           ].map(([day, time]) => (
             <div key={day} className="footer-hour-row">
               <span>{day}</span>

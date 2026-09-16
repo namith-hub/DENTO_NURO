@@ -52,20 +52,30 @@ function App() {
       offset: 80,
     });
 
-    const timer = setTimeout(() => setLoading(false), 2000);
+    const timer = setTimeout(() => {
+      setLoading(false);
+      window.scrollTo(0, 0);
+    }, 1500);
     return () => clearTimeout(timer);
   }, []);
 
   if (loading) return <Loader />;
 
+  // Dynamically resolve basename so both / and /DENTO_NURO route to HomePage seamlessly
+  const basename = window.location.pathname.startsWith('/DENTO_NURO')
+    ? '/DENTO_NURO'
+    : (process.env.PUBLIC_URL || '');
+
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={basename}>
       <div className="App">
         <Navbar />
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/services/:slug" element={<ServiceDetailPage />} />
+            {/* Catch-all route to guarantee the HomePage is always displayed */}
+            <Route path="*" element={<HomePage />} />
           </Routes>
         </main>
         <Footer />

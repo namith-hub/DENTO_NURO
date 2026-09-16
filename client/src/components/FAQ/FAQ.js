@@ -13,12 +13,12 @@ const INITIAL_FAQS = [
   {
     id: 2,
     q: 'Do you offer neurosurgery consultations at the clinic?',
-    a: 'Yes! Our senior neurosurgeon, Dr. Arun Nair, offers expert consultations for brain, spine, and peripheral nerve disorders. He also provides MRI/CT scan reviews, neurosurgical planning, and comprehensive post-operative care.',
+    a: 'Yes! Our senior neurosurgeon, Dr. Puneeth S (MCh PGIMER), offers expert consultations for brain disorders, spine conditions, and minimal invasive spine surgeries. He also provides MRI/CT scan reviews, neurosurgical planning, and comprehensive post-operative care.',
   },
   {
     id: 3,
     q: 'How do I book an appointment?',
-    a: 'You can book through our website\'s appointment form, by calling us directly, or via WhatsApp. We offer flexible scheduling including early morning and evening slots to suit your schedule.',
+    a: 'You can book through our website\'s appointment form, by calling us directly, or via WhatsApp. Our clinic timings are Monday to Saturday: 10:00 AM – 2:00 PM and 4:00 PM – 8:00 PM.',
   },
   {
     id: 4,
@@ -28,7 +28,7 @@ const INITIAL_FAQS = [
   {
     id: 5,
     q: 'Do you accept health insurance?',
-    a: 'Yes. Our billing team assists with insurance claims, pre-authorization documentation, and cashless treatment facilitation with most major insurance providers. EMI options are also available.',
+    a: 'Yes. Our billing team assists with insurance claims, pre-authorization documentation, and cashless treatment facilitation with most major insurance providers.',
   },
   {
     id: 6,

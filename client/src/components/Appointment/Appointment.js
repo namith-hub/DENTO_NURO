@@ -4,8 +4,8 @@ import { GiMedicalDrip } from 'react-icons/gi';
 import './Appointment.css';
 
 const departments = ['Dental', 'Neurosurgery', 'Cosmetic Dentistry', 'Emergency'];
-const doctors     = ['Dr. Priya Sharma (Dentist)', 'Dr. Arun Nair (Neurosurgeon)', 'Any Available Doctor'];
-const timeSlots   = ['9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM'];
+const doctors     = ['Dr. Ahalya N (Dental Surgeon)', 'Dr. Puneeth S (MCh PGIMER)', 'Any Available Doctor'];
+const timeSlots   = ['10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM'];
 
 const initForm = { name: '', phone: '', email: '', department: '', doctor: '', date: '', time: '', message: '' };
 
@@ -67,7 +67,7 @@ const Appointment = () => {
               {[
                 { icon: <FiPhone />, label: 'Phone / WhatsApp', val: '+91 63605 21761', href: 'https://wa.me/916360521761?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20SMILEWISE%20Dento%20Neuro%20Clinic.' },
                 { icon: <FiMail />,  label: 'Email',            val: 'smilewise.dentoneuro@gmail.com', href: 'mailto:smilewise.dentoneuro@gmail.com' },
-                { icon: <FiCalendar/>,label:'Hours',            val: 'Mon–Sat: 9:30AM–2PM & 4:30PM–8PM' },
+                { icon: <FiCalendar/>,label:'Hours',            val: 'Mon–Sat: 10AM–2PM & 4PM–8PM' },
               ].map((item, i) => (
                 <li key={i}>
                   <span className="appt-info-icon">{item.icon}</span>

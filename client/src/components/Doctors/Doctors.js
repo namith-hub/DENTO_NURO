@@ -21,7 +21,7 @@ const doctors = [
   },
   {
     id: 2,
-    name:           'Dr. Puneeth S',
+    name:           'Dr. Puneeth S (MCh PGIMER)',
     title:          'Consultant Neurosurgeon',
     specialty:      'Neurosurgery (Brain & Spine)',
     icon:           <GiBrain size={22} />,
@@ -30,8 +30,8 @@ const doctors = [
     regNo:          'Reg. No. KMC 106238',
     college:        'PGIMER, Chandigarh',
     image:          'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&q=80',
-    bio:            'Dr. Puneeth S is an expert consultant neurosurgeon with over 10 years of experience in managing complex brain, spine, and nerve disorders. He completed his advanced neurosurgical training at the prestigious PGIMER, Chandigarh.',
-    expertise:      ['Neurosurgery', 'Brain Tumor & Trauma Care', 'Spine Surgery & Decompression', 'Peripheral Nerve Repair', 'Neurosurgical Consultation', 'Post-Operative Care'],
+    bio:            'Dr. Puneeth S (MCh PGIMER) is an expert consultant neurosurgeon with over 10 years of experience in managing complex brain and spine disorders, including minimal invasive spine surgeries. He completed his advanced neurosurgical training at the prestigious PGIMER, Chandigarh.',
+    expertise:      ['Neurosurgery', 'Brain Tumor & Trauma Care', 'Spine Surgery & Decompression', 'Minimal Invasive Spine Surgeries', 'Neurosurgical Consultation', 'Post-Operative Care'],
     awards:         ['PGIMER Chandigarh Alumni', 'Reg. No. KMC 106238', 'Consultant Neurosurgeon'],
   },
 ];

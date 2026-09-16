@@ -118,7 +118,7 @@ export const dentalServices = [
     category: 'Dental Care',
     image: 'https://images.unsplash.com/photo-1601925228008-d01df6f2b8d5?w=1000&q=80',
     description: 'We believe everyone deserves a beautiful, confident smile. Our cosmetic dentistry procedures are crafted with artistic precision and premium materials for stunning, natural results.',
-    longDescription: 'A captivating smile boosts confidence and personal success. Our cosmetic dentistry services include Hollywood-grade porcelain veneers, laser teeth whitening, smile proportions design, and gum contouring.',
+    longDescription: 'A captivating smile boosts confidence and personal success. Our cosmetic dentistry services include custom porcelain veneers, laser teeth whitening, smile proportions design, and gum contouring.',
     highlights: [
       { title: 'Digital Smile Design', desc: 'Preview your new smile before treatment begins.' },
       { title: 'Porcelain Veneers', desc: 'Ultra-thin veneers for flawless shape and color.' },
@@ -310,27 +310,27 @@ export const dentalServices = [
   {
     id: 'laser-dentistry',
     title: 'Laser Dentistry',
-    short: 'Cutting-edge laser treatments for precise, painless care.',
+    short: 'Cutting-edge soft-tissue laser treatments for precise, painless care.',
     category: 'Dental Care',
     image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1000&q=80',
-    description: 'Our advanced dental laser technology offers minimally invasive treatments with reduced pain, faster healing, and superior precision compared to traditional methods.',
-    longDescription: 'Soft-tissue and hard-tissue lasers eliminate the noise of drills and minimize the need for scalpel incisions. Lasers instantly cauterize and sterilize, leading to zero bleeding and rapid healing.',
+    description: 'Our advanced soft-tissue dental laser technology offers minimally invasive treatments with reduced pain, faster healing, and superior precision compared to traditional methods.',
+    longDescription: 'Soft-tissue lasers eliminate the need for scalpel incisions and minimize discomfort. Lasers instantly cauterize and sterilize, leading to zero bleeding, no sutures, and rapid healing.',
     highlights: [
-      { title: 'No Drills, No Noise', desc: 'Quiet, comfortable, and drill-free procedures.' },
+      { title: 'No Scalpels, No Sutures', desc: 'Gentle, comfortable, and incision-free procedures.' },
       { title: 'Zero Bleeding', desc: 'Instant laser sealing of blood vessels.' },
       { title: 'Fast Healing', desc: 'Significantly reduced post-procedure recovery time.' }
     ],
     points: [
-      'Laser gum contouring & depigmentation',
-      'Laser-assisted in-office teeth whitening',
-      'Minimally invasive soft tissue Frenectomy',
-      'Laser sterilizing of root canals & periodontal pockets',
-      'Canker sore & cold sore laser pain relief',
-      'Drill-free early cavity removal'
+      'Laser gum contouring & aesthetic gingivectomy',
+      'Laser gum depigmentation for dark gums',
+      'Minimally invasive soft-tissue frenectomy',
+      'Laser sterilization of periodontal pockets',
+      'Canker sore & aphthous ulcer laser pain relief',
+      'Laser-assisted soft-tissue crown lengthening'
     ],
     procedureSteps: [
-      { step: '01', title: 'Laser Setup', desc: 'Calibrating target laser wavelength for soft/hard tissue.' },
-      { step: '02', title: 'Targeted Application', desc: 'Precision beam targeting damaged tissue painless.' },
+      { step: '01', title: 'Laser Setup', desc: 'Calibrating target laser wavelength for soft-tissue precision.' },
+      { step: '02', title: 'Targeted Application', desc: 'Precision beam targeting soft tissue gently and painlessly.' },
       { step: '03', title: 'Sterilization', desc: 'Laser energy kills 99.9% of bacteria instantly.' },
       { step: '04', title: 'Instant Recovery', desc: 'No sutures required; immediate return to daily routine.' }
     ]
@@ -479,30 +479,31 @@ export const neuroServicesData = [
     ]
   },
   {
-    id: 'peripheral-nerve',
-    title: 'Peripheral Nerve Disorders',
-    short: 'Microsurgical repair and treatment for nerve compression and facial pain.',
+    id: 'minimal-invasive-spine',
+    title: 'Minimal Invasive Spine Surgeries',
+    short: 'Advanced keyhole techniques for faster recovery and minimal tissue trauma.',
     category: 'Neurosurgery',
-    image: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=1000&q=80',
-    description: 'Peripheral nerve entrapments like Carpal Tunnel Syndrome and Trigeminal Neuralgia cause severe pain or weakness. We offer micro-decompression and nerve repair.',
-    longDescription: 'Nerve injuries and compression syndromes require fine microsurgical skill under operating microscopes. Our clinic provides nerve conduction velocity (NCV) correlation, carpal tunnel release, and trigeminal nerve pain management.',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1000&q=80',
+    description: 'Minimally invasive spine surgery (MISS) utilizes specialized instruments, tubular retractors, and micro-endoscopes to treat spinal conditions through tiny incisions with minimal blood loss and rapid recovery.',
+    longDescription: 'Traditional open spine surgery often requires extensive muscle dissection. With advanced minimally invasive spine surgery, Dr. Puneeth S (MCh PGIMER) targets herniated discs, spinal stenosis, and instability through keyhole incisions, preserving healthy spinal tissues and enabling faster return to daily activities.',
     highlights: [
-      { title: 'Microsurgery', desc: 'High-magnification microscope nerve repair.' },
-      { title: 'Carpal Tunnel Release', desc: 'Day-care procedure for hand numbness relief.' },
-      { title: 'Facial Pain Relief', desc: 'Targeted therapy for Trigeminal Neuralgia.' }
+      { title: 'Keyhole Precision', desc: 'Tiny incisions that preserve healthy muscle and tissue.' },
+      { title: 'Rapid Recovery', desc: 'Shorter hospital stays and quicker return to active life.' },
+      { title: 'Minimal Blood Loss', desc: 'Advanced micro-endoscopic visualization and safety.' }
     ],
     points: [
-      'Carpal Tunnel Syndrome diagnosis & surgical release',
-      'Peripheral nerve laceration & injury microsurgical repair',
-      'Ulnar & radial nerve entrapment decompression',
-      'Trigeminal Neuralgia & facial nerve pain management',
-      'Nerve tumor (Schwannoma, Neurofibroma) excision'
+      'Microscopic & Endoscopic Lumbar Discectomy',
+      'Minimally Invasive Spinal Decompression (Tubular Retractor System)',
+      'MIS-TLIF (Minimally Invasive Transforaminal Lumbar Interbody Fusion)',
+      'Percutaneous Pedicle Screw Fixation & Stabilization',
+      'Cervical Micro-Foraminotomy & Decompression',
+      'Kyphoplasty & Vertebroplasty for Osteoporotic Fractures'
     ],
     procedureSteps: [
-      { step: '01', title: 'EMG/NCV Review', desc: 'Analyzing electrical nerve signal speed.' },
-      { step: '02', title: 'Microsurgical Plan', desc: 'Mapping exact nerve entrapment zone.' },
-      { step: '03', title: 'Decompression', desc: 'Releasing tissue pressure around nerve bundle.' },
-      { step: '04', title: 'Functional Recovery', desc: 'Sensory and motor rehabilitation monitoring.' }
+      { step: '01', title: 'Pre-Op Spine Mapping', desc: 'High-resolution MRI and CT review to plan the minimally invasive corridor.' },
+      { step: '02', title: 'Targeted Keyhole Access', desc: 'Gentle muscle dilation using tubular retractor systems under fluoroscopic navigation.' },
+      { step: '03', title: 'Microscopic Decompression', desc: 'Precise nerve decompression or stabilization under high-magnification visualization.' },
+      { step: '04', title: 'Accelerated Recovery', desc: 'Early post-operative ambulation and guided physical rehabilitation.' }
     ]
   },
   {

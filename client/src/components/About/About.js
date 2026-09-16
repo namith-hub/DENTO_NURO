@@ -118,15 +118,15 @@ const About = () => {
               Where Excellence Meets Compassion
             </h2>
             <p>
-              At SMILEWISE Dento Neuro Clinic, you receive more than treatment — you receive ethical, specialist-led care tailored to your wellbeing.
+              At Dr. Ahalya’s Dento Neuro Centre, we bring dental and neurosurgical care together under one roof, with a focus on expertise, comfort, and personalised treatment.
             </p>
             <ul className="about-features">
               {[
                 'Dental & Neurosurgical Care Under One Roof',
                 'Advanced Clinical Tech & Laser Dentistry',
-                'Experienced Specialists (BDS, MBBS, MS, MCh)',
+                'Experienced Specialists',
                 'Ethical & Patient-Centered Treatment Plans',
-                'Convenient Timings: Mon–Sat (9:30am-2pm & 4:30pm-8pm)',
+                'Convenient Timings: Mon–Sat (10am- 2pm) , (4pm-8pm)',
               ].map((f, i) => (
                 <li key={i}>
                   <span className="feature-dot"></span>

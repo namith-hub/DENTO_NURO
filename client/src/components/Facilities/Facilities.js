@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   FiMonitor, FiShield, FiCoffee,
-  FiTruck, FiNavigation, FiAlertCircle, FiCreditCard
+  FiTruck, FiNavigation
 } from 'react-icons/fi';
 import { GiMedicalDrip } from 'react-icons/gi';
 import './Facilities.css';
@@ -42,18 +42,6 @@ const facilities = [
     title: 'Wheelchair Access',
     desc: 'Fully accessible clinic with ramps, wide corridors, and adapted facilities ensuring every patient can access care comfortably.',
     image: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=400&q=80',
-  },
-  {
-    icon: <FiAlertCircle size={34}/>,
-    title: 'Emergency Care',
-    desc: '24-hour emergency dental and neurological consultation available. Our team is always ready when you need us most.',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80',
-  },
-  {
-    icon: <FiCreditCard size={34}/>,
-    title: 'Insurance Assistance',
-    desc: 'Our dedicated billing team helps with insurance claims, pre-authorization, and cashless treatment facilitation.',
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&q=80',
   },
 ];
 

@@ -34,8 +34,8 @@ const reasons = [
   {
     icon: <FiDollarSign size={32}/>,
     title: 'Affordable Care',
-    desc: 'World-class treatment at transparent, fair pricing. EMI options and insurance assistance available for every patient.',
-    stat: 'EMI Available',
+    desc: 'World-class treatment at transparent, fair, and ethical pricing with no hidden costs.',
+    stat: 'Transparent Pricing',
   },
   {
     icon: <FiHeart size={32}/>,
@@ -59,7 +59,7 @@ const WhyChooseUs = () => (
         <h2 className="section-title why-title">Why Patients Choose<br /><span className="text-gold">Dr Ahalya's Dento Nuro Clinic</span></h2>
         <div className="gold-divider center"></div>
         <p className="section-subtitle why-sub">
-          Seven compelling reasons why thousands of patients trust us with their dental and neurological health.
+          At Dr. Ahalya’s Dento Neuro Centre, we bring dental and neurosurgical care together under one roof, with a focus on expertise, comfort, and personalised treatment.
         </p>
       </div>
 

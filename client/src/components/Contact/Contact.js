@@ -48,8 +48,8 @@ const Contact = () => (
             <div>
               <h4>Clinic Timings</h4>
               <div className="hours-list">
-                <div className="hours-row"><span>Mon – Sat (Morning)</span><span className="hours-time">9:30 AM – 2:00 PM</span></div>
-                <div className="hours-row"><span>Mon – Sat (Evening)</span><span className="hours-time">4:30 PM – 8:00 PM</span></div>
+                <div className="hours-row"><span>Mon – Sat (Morning)</span><span className="hours-time">10:00 AM – 2:00 PM</span></div>
+                <div className="hours-row"><span>Mon – Sat (Evening)</span><span className="hours-time">4:00 PM – 8:00 PM</span></div>
                 <div className="hours-row"><span>Sunday</span><span className="hours-time closed">Holiday</span></div>
               </div>
             </div>

@@ -4,7 +4,6 @@ import { FiArrowRight, FiActivity } from 'react-icons/fi';
 import { GiBrain, GiSpinalCoil } from 'react-icons/gi';
 import { MdOutlineScience } from 'react-icons/md';
 import { TbBrain } from 'react-icons/tb';
-import { BiNetworkChart } from 'react-icons/bi';
 import './NeuroServices.css';
 
 const categories = [
@@ -39,15 +38,17 @@ const categories = [
     ],
   },
   {
-    id: 'peripheral-nerve',
-    title: 'Peripheral Nerve Disorders',
-    icon: <BiNetworkChart size={22}/>,
-    image: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=600&q=80',
+    id: 'minimal-invasive-spine',
+    title: 'Minimal Invasive Spine Surgeries',
+    icon: <GiSpinalCoil size={22}/>,
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
     services: [
-      { name: 'Carpal Tunnel Syndrome', desc: 'Diagnosis and surgical release for median nerve compression at the wrist causing hand numbness and weakness.' },
-      { name: 'Peripheral Nerve Injury', desc: 'Microsurgical repair and management of nerve lacerations, avulsions, and neuropraxia.' },
-      { name: 'Nerve Compression Syndromes', desc: 'Treatment for ulnar, radial, and other peripheral nerve entrapments causing pain and motor weakness.' },
-      { name: 'Facial Pain', desc: 'Expert management of trigeminal neuralgia, hemifacial spasm, and other facial nerve disorders.' },
+      { name: 'Microdiscectomy', desc: 'Precision keyhole surgery to remove herniated disc fragments pressing on spinal nerves with minimal tissue disruption.' },
+      { name: 'Endoscopic Spine Surgery', desc: 'Ultra-minimally invasive spine surgery using high-definition endoscopes for rapid recovery and minimal pain.' },
+      { name: 'Minimally Invasive Decompression', desc: 'Targeted tubular decompression for lumbar canal stenosis relieving chronic leg pain and neurogenic claudication.' },
+      { name: 'MIS-TLIF Fusion', desc: 'Minimally invasive spinal fusion and stabilization through tiny incisions for spondylolisthesis and instability.' },
+      { name: 'Percutaneous Screw Fixation', desc: 'Keyhole stabilization using fluoroscopy-guided screw placement without wide surgical incisions.' },
+      { name: 'Cervical Micro-Foraminotomy', desc: 'Microscopic nerve root decompression in the neck relieving severe radiating arm pain and numbness.' },
     ],
   },
   {
@@ -89,7 +90,7 @@ const NeuroServices = () => {
           <h2 className="section-title">Brain & Spine Consultation</h2>
           <div className="gold-divider center"></div>
           <p className="section-subtitle" style={{ margin: '0 auto', textAlign: 'center' }}>
-            Expert neurosurgical consultations for brain, spine, and nerve disorders — delivered with compassion, precision, and state-of-the-art diagnostic capabilities.
+            Expert neurosurgical consultations for brain and spine disorders, including minimal invasive spine surgeries — delivered with compassion, precision, and state-of-the-art diagnostic capabilities.
           </p>
         </div>
 
