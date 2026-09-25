@@ -1,7 +1,7 @@
 {
-  "name": "dento-nuro-server",
+  "name": "dento-neuro-server",
   "version": "1.0.0",
-  "description": "Backend API for Dento Nuro Clinik",
+  "description": "Backend API for Dento Neuro Clinic",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

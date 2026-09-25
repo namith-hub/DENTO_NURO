@@ -61,9 +61,11 @@ function App() {
 
   if (loading) return <Loader />;
 
-  // Dynamically resolve basename so both / and /DENTO_NURO route to HomePage seamlessly
+  // Dynamically resolve basename so /, /DENTO_NURO, and /DENTO_NEURO route to HomePage seamlessly
   const basename = window.location.pathname.startsWith('/DENTO_NURO')
     ? '/DENTO_NURO'
+    : window.location.pathname.startsWith('/DENTO_NEURO')
+    ? '/DENTO_NEURO'
     : (process.env.PUBLIC_URL || '');
 
   return (

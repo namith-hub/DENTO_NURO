@@ -6,7 +6,7 @@ export const dentalServices = [
     category: 'Dental Care',
     image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1000&q=80',
     description: 'Our general dentistry services form the cornerstone of your oral health. From routine check-ups to digital X-rays, we identify and address issues early — protecting your smile for years to come.',
-    longDescription: 'At Dr Ahalya\'s Dento Nuro Clinic, general dentistry is about proactive, gentle, and thorough care. We use ultra-low radiation digital radiography, painless ultrasonic cleaning, and state-of-the-art diagnostic tools to keep your teeth and gums healthy. Routine dental visits prevent small cavities from becoming costly or painful problems later on.',
+    longDescription: 'At Dr Ahalya\'s Dento Neuro Clinic, general dentistry is about proactive, gentle, and thorough care. We use ultra-low radiation digital radiography, painless ultrasonic cleaning, and state-of-the-art diagnostic tools to keep your teeth and gums healthy. Routine dental visits prevent small cavities from becoming costly or painful problems later on.',
     highlights: [
       { title: 'Low-Radiation X-Rays', desc: 'Digital imaging for precise, safer diagnosis.' },
       { title: 'Painless Scaling', desc: 'Ultrasonic cleaning for healthy, clean gums.' },
@@ -90,7 +90,7 @@ export const dentalServices = [
     category: 'Dental Care',
     image: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1000&q=80',
     description: 'Root canal therapy is a pain-relieving, tooth-saving procedure. Our endodontic specialists use advanced rotary techniques and digital imaging for predictable, comfortable outcomes.',
-    longDescription: 'Severe tooth pain often indicates infected pulp tissue inside the tooth. Thanks to modern endodontic technology, rotary instruments, and single-visit procedures, root canals at Dr Ahalya\'s Dento Nuro Clinic are virtually painless and save your natural tooth for decades.',
+    longDescription: 'Severe tooth pain often indicates infected pulp tissue inside the tooth. Thanks to modern endodontic technology, rotary instruments, and single-visit procedures, root canals at Dr Ahalya\'s Dento Neuro Clinic are virtually painless and save your natural tooth for decades.',
     highlights: [
       { title: 'Pain-Free Procedure', desc: 'Gentle anesthesia ensures complete comfort throughout.' },
       { title: 'Single-Visit Option', desc: 'Advanced rotary tools allow fast, efficient treatment.' },

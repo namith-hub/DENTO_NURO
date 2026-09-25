@@ -56,7 +56,7 @@ const WhyChooseUs = () => (
     <div className="container">
       <div className="section-center" data-aos="fade-up">
         <span className="section-tag why-tag"><GiMedicalDrip size={14} /> Why Choose Us</span>
-        <h2 className="section-title why-title">Why Patients Choose<br /><span className="text-gold">Dr Ahalya's Dento Nuro Clinic</span></h2>
+        <h2 className="section-title why-title">Why Patients Choose<br /><span className="text-gold">Dr Ahalya's Dento Neuro Clinic</span></h2>
         <div className="gold-divider center"></div>
         <p className="section-subtitle why-sub">
           At Dr. Ahalya’s Dento Neuro Centre, we bring dental and neurosurgical care together under one roof, with a focus on expertise, comfort, and personalised treatment.

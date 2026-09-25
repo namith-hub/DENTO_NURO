@@ -20,7 +20,7 @@ app.use('/api/faq',         faqRoute);
 
 // ── Health Check ──────────────────────────────────────────────────
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'Dr Ahalya\'s Dento Nuro Clinic API is running', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', message: 'Dr Ahalya\'s Dento Neuro Clinic API is running', timestamp: new Date().toISOString() });
 });
 
 // ── 404 ───────────────────────────────────────────────────────────
@@ -31,5 +31,5 @@ app.use((req, res) => {
 // ── Start ─────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🦷🧠 Dr Ahalya's Dento Nuro Clinic API running on port ${PORT}`);
+  console.log(`🦷🧠 Dr Ahalya's Dento Neuro Clinic API running on port ${PORT}`);
 });

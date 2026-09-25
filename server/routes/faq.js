@@ -4,7 +4,7 @@ const router  = express.Router();
 const faqs = [
   {
     id: 1,
-    q: 'What types of dental services does Dr Ahalya\'s Dento Nuro Clinic offer?',
+    q: 'What types of dental services does Dr Ahalya\'s Dento Neuro Clinic offer?',
     a: 'We offer a comprehensive range of 15+ dental services including General, Preventive, Restorative, Cosmetic, and Emergency Dentistry, Dental Implants, Orthodontics, Laser Dentistry, Pediatric Dentistry, and Full Mouth Rehabilitation — all under one roof.',
   },
   {

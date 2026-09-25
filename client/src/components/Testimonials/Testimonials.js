@@ -79,7 +79,7 @@ const Testimonials = () => {
           <h2 className="section-title">What Our Patients Say</h2>
           <div className="gold-divider center"></div>
           <p className="section-subtitle" style={{ margin: '0 auto', textAlign: 'center' }}>
-            Real stories from real patients who trusted Dr Ahalya's Dento Nuro Clinic with their health — and never looked back.
+            Real stories from real patients who trusted Dr Ahalya's Dento Neuro Clinic with their health — and never looked back.
           </p>
         </div>
 

@@ -1,6 +1,6 @@
-# DENTO NURO CLINIK — Premium Website
+# DENTO NEURO CLINIC — Premium Website
 
-A luxury, world-class healthcare website for **DENTO NURO CLINIK** — a premium integrated Dentistry + Neurosurgery clinic in Mysuru, Karnataka.
+A luxury, world-class healthcare website for **DENTO NEURO CLINIC** — a premium integrated Dentistry + Neurosurgery clinic in Mysuru, Karnataka.
 
 ---
 
@@ -21,7 +21,7 @@ A luxury, world-class healthcare website for **DENTO NURO CLINIK** — a premium
 ## 📁 Project Structure
 
 ```
-dento-nuro-clinik/
+dento-neuro-clinic/
 ├── client/               # React CRA frontend
 │   ├── public/
 │   │   └── logo.png      # Clinic logo

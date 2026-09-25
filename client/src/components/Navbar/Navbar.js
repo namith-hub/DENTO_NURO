@@ -65,10 +65,10 @@ const Navbar = () => {
       <div className="container navbar-inner">
         {/* Logo */}
         <button className="navbar-logo" onClick={() => scrollTo('home')} aria-label="Go to top">
-          <ClinicLogo className="logo-img" alt="Dr Ahalya's Dento Nuro Clinic Logo" />
+          <ClinicLogo className="logo-img" alt="Dr Ahalya's Dento Neuro Clinic Logo" />
           <div className="logo-text">
             <span className="logo-name">DR AHALYA'S</span>
-            <span className="logo-sub">DENTO NURO CLINIC</span>
+            <span className="logo-sub">DENTO NEURO CLINIC</span>
           </div>
         </button>
 

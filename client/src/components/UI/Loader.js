@@ -36,7 +36,7 @@ const Loader = () => {
 
         {/* Center Official Clinic Emblem */}
         <div className="loader-logo-frame">
-          <ClinicLogo className="loader-logo" alt="Dr Ahalya's Dento Nuro Clinic" />
+          <ClinicLogo className="loader-logo" alt="Dr Ahalya's Dento Neuro Clinic" />
         </div>
       </div>
 
@@ -52,7 +52,7 @@ const Loader = () => {
       </div>
 
       {/* Brand Title & Tagline */}
-      <h1 className="loader-text">DR AHALYA'S DENTO NURO CLINIC</h1>
+      <h1 className="loader-text">DR AHALYA'S DENTO NEURO CLINIC</h1>
       <p className="loader-tagline">Smile Brighter. Think Better.</p>
 
       {/* Progress Bar */}
