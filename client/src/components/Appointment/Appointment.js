@@ -65,7 +65,7 @@ const Appointment = () => {
             <h3>Appointment Information</h3>
             <ul className="appt-info-list">
               {[
-                { icon: <FiPhone />, label: 'Phone / WhatsApp', val: '+91 63605 21761', href: 'https://wa.me/916360521761?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20SMILEWISE%20Dento%20Neuro%20Clinic.' },
+                { icon: <FiPhone />, label: 'Phone / WhatsApp', val: '+91 63605 21761', href: 'https://wa.me/916360521761?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20DR%20AHALYAS%20Dento%20neuro%20clinic.' },
                 { icon: <FiMail />,  label: 'Email',            val: 'smilewise.dentoneuro@gmail.com', href: 'mailto:smilewise.dentoneuro@gmail.com' },
                 { icon: <FiCalendar/>,label:'Hours',            val: 'Mon–Sat: 10AM–2PM & 4PM–8PM' },
               ].map((item, i) => (
@@ -168,7 +168,7 @@ const Appointment = () => {
           <div className="appt-success-box" onClick={e => e.stopPropagation()}>
             <div className="success-icon"><FiCheck size={36} /></div>
             <h3>Appointment Requested!</h3>
-            <p>Thank you for choosing SMILEWISE Dento Neuro Clinic. Our team will contact you within 2 hours to confirm your appointment slot.</p>
+            <p>Thank you for choosing DR AHALYAS Dento neuro clinic. Our team will contact you within 2 hours to confirm your appointment slot.</p>
             <button className="btn-primary" onClick={() => setSuccess(false)}><span>Close</span></button>
           </div>
         </div>

@@ -26,10 +26,10 @@ const Footer = () => (
       {/* Brand */}
       <div className="footer-brand">
         <div className="footer-logo-wrap">
-          <ClinicLogo className="footer-logo" alt="SMILEWISE Dento Neuro Clinic" />
+          <ClinicLogo className="footer-logo" alt="DR AHALYAS Dento neuro clinic" />
           <div className="footer-logo-text">
             <span className="footer-logo-name">DR AHALYA'S</span>
-            <span className="footer-logo-sub">SMILEWISE DENTO NEURO CLINIC</span>
+            <span className="footer-logo-sub">DENTO NEURO CLINIC</span>
           </div>
         </div>
         <p className="footer-tagline">Advanced Dental Care | Expert Neuroscience</p>
@@ -98,7 +98,7 @@ const Footer = () => (
     {/* Bottom Bar */}
     <div className="footer-bottom">
       <div className="container footer-bottom-inner">
-        <p>© {new Date().getFullYear()} SMILEWISE DENTO NEURO CLINIC. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} DR AHALYAS DENTO NEURO CLINIC. All Rights Reserved.</p>
         <p>Designed with ♥ for excellent healthcare in Mysuru</p>
       </div>
     </div>

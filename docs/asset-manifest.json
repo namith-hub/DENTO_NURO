@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/dento_nuro_clinic/static/css/main.400560fb.css",
-    "main.js": "/dento_nuro_clinic/static/js/main.1c14c7f6.js",
-    "index.html": "/dento_nuro_clinic/index.html",
-    "main.400560fb.css.map": "/dento_nuro_clinic/static/css/main.400560fb.css.map",
-    "main.1c14c7f6.js.map": "/dento_nuro_clinic/static/js/main.1c14c7f6.js.map"
+    "main.css": "/DENTO_NURO/static/css/main.d1f6712d.css",
+    "main.js": "/DENTO_NURO/static/js/main.6823e6b0.js",
+    "static/media/logo.png": "/DENTO_NURO/static/media/logo.f1df779eb014f87227fe.png",
+    "index.html": "/DENTO_NURO/index.html",
+    "main.d1f6712d.css.map": "/DENTO_NURO/static/css/main.d1f6712d.css.map",
+    "main.6823e6b0.js.map": "/DENTO_NURO/static/js/main.6823e6b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.400560fb.css",
-    "static/js/main.1c14c7f6.js"
+    "static/css/main.d1f6712d.css",
+    "static/js/main.6823e6b0.js"
   ]
 }

@@ -57,7 +57,7 @@ const Contact = () => (
 
           {/* WhatsApp CTA */}
           <a
-            href="https://wa.me/916360521761?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20SMILEWISE%20Dento%20Neuro%20Clinic."
+            href="https://wa.me/916360521761?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20DR%20AHALYAS%20Dento%20neuro%20clinic."
             target="_blank"
             rel="noreferrer"
             className="whatsapp-cta"
@@ -71,7 +71,7 @@ const Contact = () => (
         <div className="contact-map" data-aos="fade-left">
           <div className="map-wrapper">
             <iframe
-              title="SMILEWISE Dento Neuro Clinic Location"
+              title="DR AHALYAS Dento neuro clinic Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.6897538820175!2d76.6436!3d12.3156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7b5931b07489%3A0x3c25fbff3d1d9da1!2sSaraswathipuram%2C%20Mysuru%2C%20Karnataka%20570009!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               allowFullScreen=""
               loading="lazy"

@@ -61,7 +61,7 @@ const About = () => {
           <h2 className="section-title">Who We Are</h2>
           <div className="gold-divider center"></div>
           <p className="section-subtitle" style={{ margin: '0 auto', textAlign: 'center' }}>
-            SMILEWISE Dento Neuro Clinic is a modern multispecialty healthcare destination in Mysuru, combining advanced dental expertise with expert neurosurgical care under one compassionate roof.
+            DR AHALYAS Dento neuro clinic is a modern multispecialty healthcare destination in Mysuru, combining advanced dental expertise with expert neurosurgical care under one compassionate roof.
           </p>
         </div>
 
@@ -138,7 +138,7 @@ const About = () => {
           <div className="about-why-image" data-aos="fade-left">
             <img
               src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600&q=80"
-              alt="SMILEWISE Dento Neuro Clinic interior"
+              alt="DR AHALYAS Dento neuro clinic interior"
               loading="lazy"
             />
             <div className="about-badge">
