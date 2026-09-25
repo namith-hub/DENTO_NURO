@@ -168,7 +168,7 @@ const Appointment = () => {
           <div className="appt-success-box" onClick={e => e.stopPropagation()}>
             <div className="success-icon"><FiCheck size={36} /></div>
             <h3>Appointment Requested!</h3>
-            <p>Thank you for choosing DR AHALYAS Dento neuro clinic. Our team will contact you within 2 hours to confirm your appointment slot.</p>
+            <p>Thank you for choosing Dr Ahalya's Dento neuro clinic. Our team will contact you within 2 hours to confirm your appointment slot.</p>
             <button className="btn-primary" onClick={() => setSuccess(false)}><span>Close</span></button>
           </div>
         </div>

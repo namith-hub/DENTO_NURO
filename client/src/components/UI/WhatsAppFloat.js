@@ -4,7 +4,7 @@ import './WhatsAppFloat.css';
 
 const WhatsAppFloat = () => {
   const phone = '916360521761';
-  const msg   = encodeURIComponent('Hello! I would like to book an appointment at DR AHALYAS Dento neuro clinic.');
+  const msg   = encodeURIComponent("Hello! I would like to book an appointment at Dr Ahalya's Dento neuro clinic.");
 
   return (
     <a

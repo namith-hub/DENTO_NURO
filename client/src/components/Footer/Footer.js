@@ -26,7 +26,7 @@ const Footer = () => (
       {/* Brand */}
       <div className="footer-brand">
         <div className="footer-logo-wrap">
-          <ClinicLogo className="footer-logo" alt="DR AHALYAS Dento neuro clinic" />
+          <ClinicLogo className="footer-logo" alt="Dr Ahalya's Dento neuro clinic" />
           <div className="footer-logo-text">
             <span className="footer-logo-name">DR AHALYA'S</span>
             <span className="footer-logo-sub">DENTO NEURO CLINIC</span>
@@ -98,7 +98,7 @@ const Footer = () => (
     {/* Bottom Bar */}
     <div className="footer-bottom">
       <div className="container footer-bottom-inner">
-        <p>© {new Date().getFullYear()} DR AHALYAS DENTO NEURO CLINIC. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} DR AHALYA'S DENTO NEURO CLINIC. All Rights Reserved.</p>
         <p>Designed with ♥ for excellent healthcare in Mysuru</p>
       </div>
     </div>

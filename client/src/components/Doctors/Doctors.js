@@ -136,7 +136,7 @@ const Doctors = () => (
         <h2 className="section-title">Meet Our Doctors</h2>
         <div className="gold-divider center"></div>
         <p className="section-subtitle" style={{ margin: '0 auto', textAlign: 'center' }}>
-          Dedicated specialists bringing expertise, ethical care, and clinical excellence to DR AHALYAS Dento neuro clinic.
+          Dedicated specialists bringing expertise, ethical care, and clinical excellence to Dr Ahalya's Dento neuro clinic.
         </p>
       </div>
 
